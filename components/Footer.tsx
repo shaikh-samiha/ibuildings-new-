@@ -141,9 +141,18 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">
-            © {currentYear} iBuildings.in. All rights reserved.
-          </p>
+         <p className="text-gray-500 text-sm text-center md:text-left">
+  © {currentYear} iBuildings.in. All rights reserved. <br />
+  Built by{' '}
+  <a 
+    href="https://www.linkedin.com/in/shaikh-samiha-024b97245/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+  >
+    Shaikh Samiha
+  </a>
+</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy-policy" className="text-gray-500 hover:text-gray-300 text-sm">
               Privacy Policy
